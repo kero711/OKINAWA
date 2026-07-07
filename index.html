@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>沖繩 3天2夜旅行</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+    font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Noto Sans TC",
+    sans-serif;
+}
+
+body{
+    margin:0;
+    background:#f5f7fa;
+    color:#333;
+    padding-bottom:80px;
+}
+
+
+/* Header */
+
+.hero{
+    height:220px;
+    background:
+    linear-gradient(
+        rgba(0,0,0,.25),
+        rgba(0,0,0,.4)
+    ),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e")
+    center/cover;
+
+    color:white;
+    padding:30px 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
+}
+
+
+.hero h1{
+    margin:0;
+    font-size:32px;
+}
+
+
+.hero p{
+    margin-top:8px;
+}
+
+
+/* 卡片 */
+
+.card{
+
+    background:white;
+    margin:16px;
+    padding:18px;
+
+    border-radius:18px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,.08);
+}
+
+
+.card h2{
+
+    margin-top:0;
+
+}
+
+
+/* 行程 */
+
+.timeline{
+
+    border-left:
+    3px solid #38a3d1;
+
+    padding-left:18px;
+
+}
+
+
+.event{
+
+    margin-bottom:20px;
+
+}
+
+
+.time{
+
+    font-weight:bold;
+    color:#0077aa;
+
+}
+
+
+/* 按鈕 */
+
+.map-btn{
+
+    display:inline-block;
+
+    margin-top:10px;
+
+    padding:10px 16px;
+
+    background:#007aff;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:12px;
+
+}
+
+
+/* 導航列 */
+
+.nav{
+
+position:fixed;
+
+bottom:0;
+
+left:0;
+
+right:0;
+
+height:70px;
+
+background:white;
+
+display:flex;
+
+justify-content:space-around;
+
+align-items:center;
+
+box-shadow:
+0 -3px 10px rgba(0,0,0,.1);
+
+}
+
+
+.nav button{
+
+border:0;
+
+background:none;
+
+font-size:13px;
+
+}
+
+
+.section{
+
+display:none;
+
+}
+
+
+.section.active{
+
+display:block;
+
+}
+
+
+/* 貨幣切換 */
+
+.switch{
+
+background:#eee;
+
+padding:10px;
+
+border-radius:12px;
+
+text-align:center;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="hero">
+
+<h1>🌺 沖繩 3天2夜</h1>
+
+<p>
+10/16～10/18 ｜ 3人自由行
+</p>
+
+</div>
+
+<!-- 首頁 -->
+
+<div id="home" class="section active">
+
+
+<div class="card">
+
+<h2>✈️ 航班資訊</h2>
+
+<p>
+去程：CI122<br>
+10/16 17:05 桃園 → 19:45 那霸
+</p>
+
+<p>
+回程：CI123<br>
+10/18 20:55 那霸 → 21:30 桃園
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>🏨 住宿</h2>
+
+<p>
+國際通周邊住宿<br>
+推薦：Hotel GrandConsort Naha
+</p>
+
+<p>
+🚝 縣廳前站步行約5分鐘
+</p>
+
+</div>
+
+
+
+</div>
+
+
+
+<!-- 每日行程 -->
+
+
+<div id="schedule" class="section">
+
+
+<div class="card">
+
+<h2>🌙 Day 1｜10/16</h2>
+
+
+<div class="timeline">
+
+
+<div class="event">
+
+<div class="time">
+19:45
+</div>
+
+<p>
+✈️ 抵達那霸機場
+</p>
+
+</div>
+
+
+
+<div class="event">
+
+<div class="time">
+20:40
+</div>
+
+<p>
+🚝 搭單軌前往國際通飯店
+</p>
+
+<a class="map-btn"
+href="https://www.google.com/maps/search/?api=1&query=Naha+Airport">
+開啟導航
+</a>
+
+</div>
+
+
+
+<div class="event">
+
+<div class="time">
+21:30
+</div>
+
+<p>
+🎭 Churasun 6
+</p>
+
+<a class="map-btn"
+href="https://www.google.com/maps/search/?api=1&query=Churasun+6+Okinawa">
+Google Map
+</a>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+
+<h2>📸 Day 2｜10/17</h2>
+
+
+<div class="timeline">
+
+
+<div class="event">
+
+<div class="time">
+10:00
+</div>
+
+<p>
+⛩️ 波上宮<br>
+海邊神社拍照
+</p>
+
+
+<a class="map-btn"
+href="https://www.google.com/maps/search/?api=1&query=Naminoue+Shrine">
+導航
+</a>
+
+</div>
+
+
+
+<div class="event">
+
+<div class="time">
+13:30
+</div>
+
+<p>
+🏝️ 瀨長島 Umikaji Terrace
+</p>
+
+
+<a class="map-btn"
+href="https://www.google.com/maps/search/?api=1&query=Umikaji+Terrace">
+導航
+</a>
+
+
+</div>
+
+
+
+
+<div class="event">
+
+<div class="time">
+16:30
+</div>
+
+<p>
+🌅 美國村夕陽
+</p>
+
+
+<a class="map-btn"
+href="https://www.google.com/maps/search/?api=1&query=American+Village+Okinawa">
+導航
+</a>
+
+
+</div>
+
+
+
+
+<div class="event">
+
+<div class="time">
+18:30
+</div>
+
+<p>
+🥩 沖繩燒肉晚餐
+</p>
+
+<a class="map-btn"
+href="https://www.google.com/maps/search/?api=1&query=Yakiniku+Motobu+Farm+Naha">
+導航
+</a>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h2>🛍️ Day 3｜10/18</h2>
+
+
+<div class="timeline">
+
+
+<div class="event">
+
+<div class="time">
+10:00
+</div>
+
+<p>
+🛒 國際通購物
+</p>
+
+
+<a class="map-btn"
+href="https://www.google.com/maps/search/?api=1&query=Kokusai+Dori">
+導航
+</a>
+
+</div>
+
+
+
+<div class="event">
+
+<div class="time">
+14:00
+</div>
+
+<p>
+🏬 San-A PARCO CITY
+</p>
+
+
+<a class="map-btn"
+href="https://www.google.com/maps/search/?api=1&query=San+A+PARCO+CITY">
+導航
+</a>
+
+</div>
+
+
+
+
+<div class="event">
+
+<div class="time">
+18:30
+</div>
+
+<p>
+✈️ 前往那霸機場
+</p>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+<!-- 交通頁 -->
+
+<div id="transport" class="section">
+
+<div class="card">
+
+<h2>🚃 交通資訊</h2>
+
+<div class="timeline">
+
+
+<div class="event">
+
+<div class="time">
+機場 → 國際通
+</div>
+
+<p>
+沖繩單軌電車<br>
+那霸機場站 → 縣廳前站<br>
+約20～25分鐘<br>
+約 ¥300 / 人
+</p>
+
+</div>
+
+
+<div class="event">
+
+<div class="time">
+國際通 → 瀨長島
+</div>
+
+<p>
+單軌電車＋接駁車<br>
+約35～45分鐘<br>
+約 ¥500 / 人
+</p>
+
+</div>
+
+
+<div class="event">
+
+<div class="time">
+瀨長島 → 美國村
+</div>
+
+<p>
+公車移動<br>
+約45～60分鐘<br>
+約 ¥700 / 人
+</p>
+
+</div>
+
+
+<div class="event">
+
+<div class="time">
+美國村 → 國際通
+</div>
+
+<p>
+公車返回<br>
+約60分鐘<br>
+約 ¥800 / 人
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- 住宿頁 -->
+
+<div id="hotel" class="section">
+
+
+<div class="card">
+
+<h2>🏨 住宿資訊</h2>
+
+<p>
+推薦住宿：
+<br>
+Hotel GrandConsort Naha
+</p>
+
+
+<p>
+📍國際通附近<br>
+🚝 縣廳前站步行約5分鐘
+</p>
+
+
+<a class="map-btn"
+href="https://www.google.com/maps/search/?api=1&query=Hotel+GrandConsort+Naha">
+
+查看位置
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- 行李頁 -->
+
+
+<div id="bag" class="section">
+
+
+<div class="card">
+
+
+<h2>🧳 行前清單</h2>
+
+
+<label>
+<input type="checkbox">
+護照
+</label>
+<br>
+
+
+<label>
+<input type="checkbox">
+信用卡
+</label>
+<br>
+
+
+<label>
+<input type="checkbox">
+日幣現金
+</label>
+<br>
+
+
+<label>
+<input type="checkbox">
+行動電源
+</label>
+<br>
+
+
+<label>
+<input type="checkbox">
+轉接頭
+</label>
+<br>
+
+
+<label>
+<input type="checkbox">
+防曬用品
+</label>
+<br>
+
+
+<label>
+<input type="checkbox">
+薄外套
+</label>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- 預算頁 -->
+
+
+<div id="budget" class="section">
+
+
+<div class="card">
+
+
+<h2>💰 預算</h2>
+
+
+<div class="switch">
+
+<button onclick="changeMoney('JPY')">
+¥ 日幣
+</button>
+
+
+<button onclick="changeMoney('TWD')">
+🇹🇼 台幣
+</button>
+
+</div>
+
+
+
+<h3 id="money">
+
+¥32,000
+
+</h3>
+
+
+<p>
+每人預估<br>
+（不含機票住宿）
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- 底部導航 -->
+
+
+<div class="nav">
+
+
+<button onclick="showPage('home')">
+🏝️
+<br>
+首頁
+</button>
+
+
+<button onclick="showPage('schedule')">
+🗓️
+<br>
+行程
+</button>
+
+
+<button onclick="showPage('transport')">
+🚃
+<br>
+交通
+</button>
+
+
+<button onclick="showPage('hotel')">
+🏨
+<br>
+住宿
+</button>
+
+
+<button onclick="showPage('budget')">
+💰
+<br>
+預算
+</button>
+
+
+</div>
+
+
+
+
+
+
+<script>
+
+
+function showPage(page){
+
+let sections =
+document.querySelectorAll(".section");
+
+
+sections.forEach(function(s){
+
+s.classList.remove("active");
+
+});
+
+
+document
+.getElementById(page)
+.classList.add("active");
+
+}
+
+
+
+
+let rate = 0.215;
+
+
+function changeMoney(type){
+
+
+let money =
+document.getElementById("money");
+
+
+if(type==="TWD"){
+
+
+money.innerHTML =
+"約 NT$6,900";
+
+
+}else{
+
+
+money.innerHTML =
+"¥32,000";
+
+
+}
+
+
+}
+
+
+</script>
+
+
+</body>
+
+</html>
